@@ -73,11 +73,22 @@ body {
         color: hsl(0, 0%, 95%);
     }
 
-    // @media (min-width: 768px) {
+    // @media (min-width: 320px) {
     //     .container {
-    //         justify-content: center;
+    //         width: 100vw;
+    //         height: 100vh;
     //     }
     
     // }
+
+    // @media (max-width: 320px) {
+    //     .container {
+            
+    //         position-absolute top-50 start-50 translate-middle
+            
+    //     }
+    
+    // }
+    
 
 }
