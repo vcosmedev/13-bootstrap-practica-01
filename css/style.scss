@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: hsl(0, 0%, 95%);
+}
+
+.article {
+  color: hsla(0, 0%, 100%, 0.75);
+  ;
+
+    &--sedans {
+        background-color: hsl(31, 77%, 52%);
+    }
+
+    &--suvs {
+        background-color: hsl(184, 100%, 22%);
+    }
+
+    &--luxury {
+        background-color: hsl(179, 100%, 13%);
+    }
+    
+    &__icon {
+        width: 70px;
+        height: 40px;
+    }
+
+    &__title {
+        font-family: 'Big Shoulders Display', cursive;
+        font-size: 40px;
+    }
+
+    &__paragraph {
+        margin: 10px 5px 60px 5px;
+        font-weight: 400;
+        font-family: 'Lexend Deca', sans-serif;
+    }
+
+    &__button {
+        border-radius: 30px;
+        height: 45px;
+        width: 130px;
+        border: none;
+        font-weight: bold;
+        :hover{
+            background-color: transparent;
+            cursor: pointer;
+        }
+    }
+    
+    &__button-orange {
+        color: hsl(31, 77%, 52%);
+    }
+    
+    &__button-cyan {
+        color: hsl(184, 100%, 22%);
+    }
+    
+    &__button-green {
+        color: hsl(179, 100%, 13%);
+    }
+    
+    .button:hover{
+        background-color: transparent;
+        border: solid hsl(0, 0%, 95%);
+        cursor: pointer;
+        color: hsl(0, 0%, 95%);
+    }
+
+    // @media (min-width: 768px) {
+    //     .container {
+    //         justify-content: center;
+    //     }
+    
+    // }
+
+}
